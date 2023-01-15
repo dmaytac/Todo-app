@@ -1,6 +1,7 @@
 {
   "name": "todo-app",
   "version": "0.1.0",
+  "homepage":"http://dmaytac.github.io/todo-app",
   "private": true,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
