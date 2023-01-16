@@ -1,8 +1,8 @@
-import './App.css';
+import './styles/App.css';
 import Personal from './routes/Personal';
 import Business from './routes/Business';
 import ErrorPage from './routes/ErrorPage';
-import Header from './routes/Header';
+import Header from './components/Header';
 import Homepage from './routes/Homepage';
 import { useState,useEffect } from 'react';
 import { DarkModeSwitch } from 'react-toggle-dark-mode'; 
