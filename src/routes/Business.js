@@ -8,7 +8,7 @@ import BackButton from "../BackButton";
 const Business = ({isDarkMode,setBusiness}) =>{
   
 
-    const [todos, setTodos]=useState([{id:0,name:'Learn angular'},{id:2,name:'Finish the mini project'},{id:4,name:'Add project to your protfolio'},{id:6,name:'Javascript Lesson 28'},{id:8,name:'Make a test case for country project'},{id:10,name:'Project Todo'}])
+    const [todos, setTodos]=useState([{id:0,name:'Important Todo 1'},{id:0,name:'Todo 1'},{id:2,name:'Todo 2'},{id:4,name:'Todo 3'},{id:6,name:'Todo 3'},{id:8,name:'Todo 4'},{id:10,name:'Todo 5'}])
     const [todo, setTodo] = useState('')
     const [id, setId] = useState(12)
     const [todoEditItem,setTodoEditItem]= useState(null)

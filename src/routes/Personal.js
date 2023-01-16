@@ -7,8 +7,7 @@ import BackButton from "../BackButton";
 
 const Personal = ({isDarkMode,setPersonal}) =>{
 
-    const [todos, setTodos]=useState([{id:1,name:'Coffee at 9:00pm'},{id:3,name:'Buy an HDMI cable'},{id:5,name:'Case for the phone'},{id:7,name:'Read the new book of D. Brown'},{id:9,name:'Car tires'},
-    {id:11,name:'Milk from market'},{id:13,name:'Buy Vegetables'},{id:15,name:'eat'},{id:17,name:'Project Colors'},{id:19,name:'Car wash'},{id:21,name:'Search project'},])
+  const [todos, setTodos]=useState([{id:0,name:'Todo 1'},{id:2,name:'Todo 2'},{id:4,name:'Todo 3'},{id:6,name:'Todo 3'},{id:8,name:'Todo 4'},{id:10,name:'Todo 5'}])
     const [todo, setTodo] = useState('')
     const [id, setId] = useState(23)
     const [todoEditItem,setTodoEditItem]= useState(null)
